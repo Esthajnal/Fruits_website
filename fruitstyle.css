@@ -1,0 +1,25 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bodybackground {
+    background-image: url("Imagines/fruithearts.jpg");
+    height: 100%;
+    width: 75%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Full height */
+    text-align: center;
+    pozition: relative;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto
+}
+
+h1 {
+    background-color: chocolate
+}
