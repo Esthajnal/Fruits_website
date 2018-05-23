@@ -7,7 +7,7 @@ html {
 .bodybackground {
     background-image: url("Imagines/fruithearts.jpg");
     height: 100%;
-    width: 75%;
+    width: 90%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -17,9 +17,37 @@ html {
     pozition: relative;
     clear: both;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 h1 {
-    background-color: chocolate
+    background-color: rgba(65, 238, 42, 0.527);
+    font-size: 300%;
+    color: rgb(221, 72, 13);
+}
+
+nav {
+    text-align: left;
+    float: left;
+    border: solid;
+    border-color: rgba(65, 238, 42, 0.527);
+    background-color: rgba(65, 238, 42, 0.527);
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 30%;
+    border-radius: auto;
+    padding: 1%;
+    width: 20%;
+    height: auto;
+    pozition: absolute;
+}
+
+button {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 3%;
+    background-color: rgb(221, 72, 13);
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 30%;
+    border-radius: auto;
+    pozition: relative;
 }
