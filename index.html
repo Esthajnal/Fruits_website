@@ -7,31 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="fruitscss/fruitstyle.css">
+    <script src="fruitsjs/fruitstype.js"></script>
     <title>Fruits</title>
 </head>
 
 <body>
     <div class="maindiv">
-        <h1>Hungarian Fruits</h1>
-        <nav>
-            <div>
-                <button type='button' class="fruitsnav">Fruits</button>
-            </div>
-        </nav>
-        <nav>
-            <button class="fruitsbutton">
-                <img src="Imagines/dinnye_button.jpg" alt="">
-            </button>
-            <button class="fruitsbutton">
-                <img src="Imagines/alma_button.jpg" alt="">
-            </button>
-        </nav>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            <h1>Hungarian Fruits</h1>
+            <nav>
+                <div>
+                    <button type='button' class="fruitsnav" onclick="makeFruitsButton()">Fruits</button>
+                </div>
+            </nav>
+
+            <nav id="placeFruitsButton">
+                <button class="fruitsbutton">
+                    <img src="Imagines/dinnye_button.jpg" alt="">
+                </button>
+                <button class="fruitsbutton">
+                    <img src="Imagines/alma_button.jpg" alt="">
+                </button>
+            </nav>
+        </div>
     </div>
-    <div class="bodybackground"></div>
+    <script src="fruitsjs/fruitscript.js"></script>
 </body>
 
 </html>
