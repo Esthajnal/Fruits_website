@@ -1,16 +1,47 @@
 body {
     background-image: url('../Imagines/body_background.jpg');
-    text-align: center;
 }
 
 h1 {
     font-size: 400%;
+    font-family: 'Geneva, Verdana, sans-serif';
+    color: green;
+    text-align: center;
+}
+
+button>img {
+    width: 250px;
+    height: 250px;
+    margin: 0;
 }
 
 .maindiv {
     background-color: aquamarine;
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    min-height: 700px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fruitsnav {
+    padding: 1% 2% 1% 2%;
+    margin: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif initial;
+    font-size: 150%;
+    background-color: green;
+    color: aquamarine;
+    border-radius: 40%;
+}
+
+.fruitsbutton {
+    align: center;
+    width: 230px;
+    height: 230px;
+    border: 4%;
+    border-color: green;
+    background-color: green;
+    box-shadow: 10px 15px 10px darkolivegreen;
+    margin: 3%;
+    border-radius: 50%;
+    overflow: hidden;
 }
