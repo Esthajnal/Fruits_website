@@ -1,27 +1,27 @@
 var fruits = [{
     fruittype: 'apple',
-    picture: "../Imagines/alma_florina.jpg",
+    picture: "../Imagines/Apples/alma_florina.jpg",
     typename: 'Florina',
     ripening_time: 'september-oktober',
     average_weight: 135,
   },
   {
     fruittype: 'apple',
-    picture: '../Imagines/granny_smith.jpg',
+    picture: '../Imagines/Apples/granny_smith.jpg',
     typname: 'Granny Smith',
     ripenin_time: 'october-november',
     average_weight: 155,
   },
   {
     fruittype: 'apple',
-    picture: '../Imagines/idared.jpg',
+    picture: '../Imagines/Apples/idared.jpg',
     typname: 'Idared',
     ripenin_time: 'september-october',
     average_weight: 185,
   },
   {
     fruittype: 'apple',
-    picture: '../Imagines/jonagold.jpg',
+    picture: '../Imagines/Apples/jonagold.jpg',
     typname: 'Jonagold',
     ripenin_time: 'september-october',
     average_weight: 235,
@@ -56,11 +56,10 @@ var fruits = [{
   }
 ]
 var buttonImagesPlace = [
-  apple: '../Imagines/Button_backgrounds/apple_button.jpg',
-  watermelon: '../Imagines/Button_backgrounds/dinnye_button.jpg',
-  raspberry: '../Imagines/Button_backgrounds/raspberry_button.jpg',
-  strawberry: '../Imagines/Button_backgrounds/strawberry_button.jpg',
-
+  '../Imagines/Button_backgrounds/apple_button.jpg',
+  '../Imagines/Button_backgrounds/watermelon_button.jpg',
+  '../Imagines/Button_backgrounds/raspberry_button.jpg',
+  '../Imagines/Button_backgrounds/strawberry_button.jpg',
 ]
 /*var raspberry = [{
   picture: ,
