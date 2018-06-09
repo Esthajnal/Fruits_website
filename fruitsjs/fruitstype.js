@@ -56,11 +56,12 @@ var fruits = [{
   }
 ]
 var buttonImagesPlace = [
-  '../Imagines/Button_backgrounds/apple_button.jpg',
-  '../Imagines/Button_backgrounds/watermelon_button.jpg',
-  '../Imagines/Button_backgrounds/raspberry_button.jpg',
-  '../Imagines/Button_backgrounds/strawberry_button.jpg',
+  "../Imagines/Button_backgrounds/apple_button.jpg",
+  "../Imagines/Button_backgrounds/watermelon_button.jpg",
+  "../Imagines/Button_backgrounds/raspberry_button.jpg",
+  "../Imagines/Button_backgrounds/strawberry_button.jpg",
 ]
+
 /*var raspberry = [{
   picture: ,
   typename: ,

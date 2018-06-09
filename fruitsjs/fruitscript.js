@@ -1,19 +1,20 @@
 //gombkészítés
-var objplaceFruitsButton = document.querySelector('#placeFruitsButton');
+var objplaceFruitsButton = document.querySelector("#placeFruitsButton");
 var i;
+console.log(buttonImagesPlace);
 
-function makeFruitsButton2() {
-  var objfruitsbutton = document.createElement('BUTTON');
-  var objButtonImg = document.createElement('IMG');
+function makeFruitsButton2(buttonImagesPlace, objplaceFruitsButton) {
+  var objfruitsbutton = document.createElement("BUTTON");
+  var objButtonImg = document.createElement("IMG");
 
   objplaceFruitsButton.appendChild(objfruitsbutton);
-  objfruitsbutton.classList.add('fruitsbutton');
+  objfruitsbutton.classList.add("fruitsbutton");
   objfruitsbutton.appendChild(objButtonImg);
-  objButtonImg.setAttribute('src', toString(buttonImagesPlace[i]));
+  objButtonImg.setAttribute("src", buttonImagesPlace);
 }
 
 function makeFruitsButton() {
   for (var i = 0; i < buttonImagesPlace.length; i++) {
-    makeFruitsButton2(buttonImagesPlace, objplaceFruitsButton);
+    makeFruitsButton2(buttonImagesPlace[i], objplaceFruitsButton);
   }
 }
